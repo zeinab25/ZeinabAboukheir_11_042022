@@ -1,0 +1,20 @@
+footer {
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	column-gap: 200px;
+	min-height: 200px;
+	margin-top: auto;
+}
+.footer {
+	text-align: center;
+}
+.footer img {
+	padding-bottom: 41px;
+}
+
+.footer p {
+	padding-bottom: 20px;
+}

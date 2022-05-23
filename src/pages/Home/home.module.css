@@ -1,0 +1,21 @@
+.locations {
+	margin-top: 40px;
+	background: #f7f7f7;
+	border-radius: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 55px;
+	row-gap: 40px;
+	column-gap: 40px;
+}
+
+@media screen and (max-width: 425px) {
+	.locations {
+		background: white;
+		padding: 0;
+	}
+	.locations a {
+		width: 100%;
+	}
+}

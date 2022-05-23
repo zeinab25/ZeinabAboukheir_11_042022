@@ -1,0 +1,25 @@
+.rating {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.starHighlight {
+	color: #ff6060;
+	margin-left: 10px;
+	font-size: 25px;
+}
+
+.starEmpty {
+	color: #e3e3e3;
+	margin-left: 10px;
+	font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+	.starHighlight,
+	.starEmpty {
+		font-size: 15px;
+		margin-left: 0px;
+		margin-right: 10px;
+	}
+}

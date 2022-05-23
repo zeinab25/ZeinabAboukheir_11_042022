@@ -1,0 +1,46 @@
+.card .accordion_icon {
+	transition: all 0.3s;
+}
+
+.card .card_header {
+	cursor: pointer;
+	background-color: #ff6060;
+	color: white;
+	border-radius: 10px;
+	padding: 15px;
+	font-weight: 500;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card .card_body {
+	display: none;
+	border-radius: 10px;
+	color: #ff6060;
+	background-color: #f6f6f6;
+	line-height: 142%;
+	position: relative;
+	top: -15px;
+	z-index: -1;
+	padding: 40px 20px 20px 20px;
+}
+
+.accordion_active .card_body {
+	display: block;
+}
+
+.accordion_active .accordion_icon {
+	transform: rotate(180deg);
+}
+
+@media screen and (max-width: 768px) {
+	.card .card_body {
+		font-size: 13px;
+		padding-bottom: 10px;
+		padding-top: 30px;
+	}
+
+	.card .card_header {
+		font-size: 12px;
+	}
+}

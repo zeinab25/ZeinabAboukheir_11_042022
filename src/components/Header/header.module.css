@@ -1,0 +1,44 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 50px;
+	row-gap: 5px;
+	justify-content: center;
+}
+
+nav li {
+	white-space: nowrap;
+	font-size: 22px;
+	color: #ff6060;
+	font-weight: 500;
+}
+.active {
+	text-decoration: underline;
+	color: #ff6060;
+}
+
+nav img {
+	width: 200px;
+	margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	nav img {
+		width: 140px;
+	}
+
+	nav li {
+		font-size: 13px;
+	}
+}
+@media screen and (max-width: 576px) {
+	nav ul {
+		column-gap: 20px;
+	}
+}
